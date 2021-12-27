@@ -1,0 +1,18 @@
+.footer .footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 195px;
+}
+
+.footer .footer_container .social {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #ffab00;
+  text-align: center;
+}
+/*# sourceMappingURL=Footer.css.map */

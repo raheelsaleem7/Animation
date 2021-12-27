@@ -1,0 +1,5 @@
+@import "./_Header.scss";
+@import "./_Main.scss"; 
+@import "./Footer.scss";
+@import './_Second.scss';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Jost:wght@300&family=Mountains+of+Christmas&family=Playfair+Display&display=swap');

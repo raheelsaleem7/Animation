@@ -1,0 +1,17 @@
+@import "./variable";
+
+.footer {
+
+    .footer_container {
+          display: flex;
+          justify-content: flex-end;
+          padding-top: 195px;
+         .social {
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            background-color: $textColor;
+            text-align: center
+        }
+    }
+}

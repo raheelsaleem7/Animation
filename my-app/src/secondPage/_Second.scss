@@ -1,0 +1,87 @@
+@import "../components/variable";
+
+.second {
+    background-color: $textColor;
+    height: 100vh;
+    .container {
+        display: flex;
+        justify-content: center;
+        transform: translate(0, 50%);
+        ul {
+            list-style-type: none;
+            font-family: fantasy;
+            font-size: 22px;
+            line-height: 12px;
+            }
+          
+            a {
+              text-decoration: none;
+              color: black;
+              cursor: pointer;
+              transition: 2s;
+            
+                 &:hover {
+                     letter-spacing: 10px;
+                     font-family: $fontStyle;
+                     font-weight: 800;
+                    } 
+                  } 
+                   a:before {
+                        content:"";
+                        display:block;
+                        color:black;
+                        font-family: emoji;
+                        position: relative;
+                        letter-spacing: normal;
+                        background-color: white;
+                        transform: scale(0);
+                        transition: width .35s ease-in;
+                        animation: right_to_left 3s ease;
+                        background-color:white;
+                        height: 24px;
+                        width: 270px;
+                        top: 17px;
+                        right: 83px;
+                    
+                        @keyframes right_to_left {
+                       from {
+                        margin-left: -100%;
+                       }
+                       to {
+                        margin-left: 0;
+                        }
+                        }                
+                        }
+                          a:hover:before {
+                           transform: scale(1);
+                           opacity: 1;
+                           }
+                           a:after {
+                           content:"Interactive Background";
+                           display:block;
+                           color:rgb(128, 112, 112);
+                           font-family: emoji;
+                           position: relative;
+                           bottom:14px;
+                           letter-spacing: normal;
+                           font-size: 26px;
+                           transform: scale(0);
+                           right: 79px;
+                           transition: .5s;
+                           animation: left_to_right 3s ease;
+                           }
+                            a:hover:after {
+                            transform: scale(1);
+                            opacity: 1;
+                         
+                            }
+                            @keyframes left_to_right {
+                            from {
+                              margin-left: -100%;
+                            }
+                            to {
+                              margin-left: 0;
+                              }
+                            }                
+        }
+   }    
