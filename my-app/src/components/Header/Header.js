@@ -1,5 +1,4 @@
 import React from 'react'
-import Second from '../secondPage/Second'
 import './Header.css'
 import './_Header.scss'
 
@@ -19,10 +18,14 @@ function Header() {
   <div id="menuToggle">
    
     <input type="checkbox" />
+  <div className='border-bg'>
+    <div className='bg-toggle'>
+    </div>
+</div>
     <span></span>
     <span></span>
     <span></span>
-    
+  
 
      <ul id="menu">
       <li><a href="#" className="text">HOME</a></li>

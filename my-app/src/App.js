@@ -1,6 +1,6 @@
 import './App.css';
-import FirstPage from './components/FirstPage';
-import Second from './secondPage/Second';
+import FirstPage from './views/FirstPage';
+
 
 function App() {
   return (
